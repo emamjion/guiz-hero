@@ -8,9 +8,30 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <div class="">
+    <div class="container px-12 py-6">
+        <!-- first question and answer -->
         <div>
-
+            <h2 class="text-2xl font-medium">Difference between map,forEach,filter and find</h2>
+            <div class="ml-12 px-6 mt-3 bg-rose-300 py-2 rounded-lg">
+                Map,forEach,filter and find are array method. Mainly <code class="text-lg font-bold">map()</code> is used to execute the code then it is given a new array for execution result. On the other hand, <code class="text-lg font-bold">forEach()</code> is used to execute same code every element bt it is no returning value. it returns undefined. <br/>
+                Again, <code class="text-lg font-bold">filter()</code> is used to checks every element in an array if it fulfill the condition and then it returns a new array for matching element. On the other hand, <code class="text-lg font-bold">find()</code> As like as similar of filter but find is used to check condition but it gives only one match element in an array.
+            </div>
+        </div>
+        <!-- second question and answer -->
+        <div class="mt-6">
+            <h2 class="text-2xl font-medium">Difference between local storage,session storage and cokies</h2>
+            <div class="ml-12 px-6 mt-3 bg-green-300 py-2 rounded-lg">
+                <span class="font-medium text-xl">Local Storage</span> is used to storing data such as offline data. mainly we used to local storage that we will need to access data leter.
+                <span class="font-medium text-xl">Session Storage</span> is big way to improve the performence of the web applications.
+                <span class="font-medium text-xl">Cokies</span> Cokies are better choice for storing data that should not be persevere for a long time.
+            </div>
+        </div>
+        <!-- third question and answer -->
+        <div class="mt-6">
+            <h2 class="text-2xl font-medium">What is Event Loop?</h2>
+            <div class="ml-12 px-6 mt-3 bg-orange-300 py-2 rounded-lg">
+                The <span class="font-medium text-xl">Event Loop</span> is the scret behind the JavaScript's asynchronous programming.JavaScript all executes are single threaded. but using a few smarter data structures, it gives us the mirage of multi-threading. 
+            </div>
         </div>
     </div>
 </body>
